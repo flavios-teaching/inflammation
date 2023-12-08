@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "inflammation"
+version = "0.1.0"
+description = "A package about inflammation"
+authors = ["Flavio Hafner <f.hafner@esciencecenter.nl>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "^3.8.2"
+numpy = "^1.26.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
